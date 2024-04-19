@@ -24,5 +24,8 @@
     <ClCompile Include="Live.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Tekst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Image.cpp" />
     <ClCompile Include="Live.cpp" />
+    <ClCompile Include="Tekst.cpp" />
     <ClCompile Include="Video.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
