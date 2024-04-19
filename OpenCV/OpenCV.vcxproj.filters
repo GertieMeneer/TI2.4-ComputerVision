@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Image.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Video.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Live.cpp">
+    <ClCompile Include="ResizeEnCroping.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
