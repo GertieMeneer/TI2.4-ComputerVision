@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Opdr_1.1.1.cpp" />
+    <ClCompile Include="Opdr_1.1.2.cpp" />
+    <ClCompile Include="Opdr_1.1.3.cpp" />
+    <ClCompile Include="Opdr_1.3.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,12 +144,6 @@
       </AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Image.cpp" />
-    <ClCompile Include="Live.cpp" />
-    <ClCompile Include="Tekst.cpp" />
-    <ClCompile Include="Video.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
