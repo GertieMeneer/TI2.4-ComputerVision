@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Opdr_1.4.cpp" />
+    <Image Include="Resources\cat.png" />
+    <Image Include="Resources\warp_object.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\test_video.mp4" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

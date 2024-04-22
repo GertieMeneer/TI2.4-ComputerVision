@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="ResizeEnCroping.cpp">
-=======
     <ClCompile Include="Opdr_1.1.1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -27,8 +24,13 @@
     <ClCompile Include="Opdr_1.1.3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Opdr_1.2.cpp">
+      <Filter>source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Opdr_1.3.cpp">
->>>>>>> 85679aaf45c0c8599c02dab53f9bc29b3cf92064
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Opdr_1.4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -14,40 +14,24 @@ using namespace std;
 
 int main() 
 {
-	string path = "Resources/test.png";
+	string path = "Resources/warp_object.png";
 	Mat img = imread(path);
 	Mat imgResize, imgCrop;
 
-	cout << img.size() << endl;
-
-	// resize
+	 //resize
 	//resize(img, imgResize, Size(640, 480));
 
 	// scale 
 	resize(img, imgResize, Size(), 0.5, 0.5);
 
 	// croping
-	Rect roi(100, 100, 300, 250);
+	Rect roi(100, 200, 300, 250);
 	imgCrop = img(roi);
 
-	/*Mat imgGray, imgBlur, imgCanny, imgDil, imgErode;
-
-	cvtColor(img, imgGray, COLOR_BGR2GRAY);
-	GaussianBlur(img, imgBlur, Size(3, 3), 3, 0);
-	Canny(imgBlur, imgCanny, 25, 75);
-
-	Mat kernel = getStructuringElement(MORPH_RECT, Size(3, 3));
-	dilate(imgCanny, imgDil, kernel);
-	erode(imgDil, imgErode, kernel);*/
-
-	imshow("Image", img);
+	imshow("Original image", img);
 	imshow("Image resize", imgResize);
 	imshow("Image crop", imgCrop);
-	/*imshow("Image Gray", imgGray);
-	imshow("Image Blur", imgBlur);
-	imshow("Image Canny", imgCanny);
-	imshow("Image Dilation", imgDil);
-	imshow("Image Erode", imgErode);*/
+
 	waitKey(0);
 
 	return 0;
