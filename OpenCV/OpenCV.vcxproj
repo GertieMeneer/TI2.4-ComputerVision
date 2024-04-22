@@ -18,13 +18,6 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <Image Include="Resources\cat.png" />
-    <Image Include="Resources\warp_object.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Media Include="Resources\test_video.mp4" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
