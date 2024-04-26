@@ -19,7 +19,7 @@ int main()
 
 	Mat img;
 	
-	while (true) 
+	while (true)
 	{
 		cap.read(img);
 		imshow("Image", img);
