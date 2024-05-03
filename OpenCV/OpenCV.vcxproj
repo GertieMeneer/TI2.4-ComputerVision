@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week 4\eindOpdracht.cpp" />
+    <Xml Include="Resources\haarcascade_russian_plate_number.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="Resources\haarcascade_russian_plate_number.xml" />
+    <ClCompile Include="Week 2\Opdr_2.4.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
