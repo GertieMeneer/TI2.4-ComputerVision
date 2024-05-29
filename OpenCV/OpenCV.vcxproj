@@ -22,7 +22,7 @@
     <Xml Include="Resources\haarcascade_russian_plate_number.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week 2\Opdr_2.4.cpp" />
+    <ClCompile Include="Week 4\eindOpdracht.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
